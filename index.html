@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 반응형은 여기가 중요함. 맨 뒤에 user scalable 옵션 있는데 default는 yes, 네이버나 다음은 막아둠 -->
+    <title>이디야 커피 - RWD</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+  </head>
+
+  <body>
+    <div class="app-header" role="banner">
+      <h1 class="brand">
+        <a href="https://www.ediya.com/" target="_blank">
+          <img
+            class="response"
+            src="./images/ediya-logo.gif"
+            alt="EDIYA COFFEE"
+            />
+          <!-- <img
+            class="response-svg"
+            src="./images/multicampus.svg"
+            alt="Multi Campus"
+          /> -->
+        </a>
+      </h1>
+      <button
+        type="button"
+        class="button is-open-menu"
+        title="메뉴 열기"
+        aria-label="메뉴 열기"
+      >
+        <span class="ir"></span>
+      </button>
+    </div>
+    <div class="app-main" role="main"></div>
+    <div class="app-footer" role="contentinfo"></div>
+  </body>
+</html>
